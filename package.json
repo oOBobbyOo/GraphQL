@@ -1,0 +1,21 @@
+{
+    "name": "graphqlbase",
+    "version": "1.0.0",
+    "description": "Simaple GraphGL",
+    "main": "server.js",
+    "scripts": {
+        "dev:server": "nodemon server.js",
+        "json:server": "json-server --watch data.json",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Bobby",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.17.1",
+        "express": "^4.16.2",
+        "express-graphql": "^0.6.11",
+        "graphql": "^0.12.3",
+        "json-server": "^0.12.1",
+        "nodemon": "^1.14.7"
+    }
+}
